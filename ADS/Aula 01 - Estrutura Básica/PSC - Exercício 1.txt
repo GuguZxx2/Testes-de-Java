@@ -1,0 +1,33 @@
+Exercício 1 =
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class PalavrasReversa {
+    public static void main(String[] args) {
+        try {
+            BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+            
+            System.out.println("Digite a primeira palavra:");
+            String palavra1 = reader.readLine();
+            
+            System.out.println("Digite a segunda palavra:");
+            String palavra2 = reader.readLine();
+            
+            System.out.println("Palavra1:");
+            String palavra3 = reader.readLine();
+            
+            // Exibindo as palavras na ordem contrária
+            System.out.println(palavra3 + " " + palavra2 + " " + palavra1);
+       } 
+    }
+  }
+
+
+
+
+
+
+
+

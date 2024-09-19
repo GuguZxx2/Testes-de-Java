@@ -1,0 +1,12 @@
+public class QuadradoNumero {
+    public static void main(String[] args) {
+        // Definindo um número inteiro
+        int numero = 4; // você pode alterar este valor
+
+        // Elevando o número ao quadrado
+        double resultado = Math.pow(numero, 2);
+
+        // Exibindo o resultado
+        System.out.println("O quadrado de " + numero + " é: " + resultado);
+    }
+}

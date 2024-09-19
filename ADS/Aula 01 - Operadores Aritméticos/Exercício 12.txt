@@ -1,0 +1,21 @@
+public class SepararDataString {
+
+    public static void main(String[] args) {
+
+        // Definindo uma data no formato dd/mm/aa
+        String data = "15/09/23"; // por exemplo, 15 de setembro de 2023
+
+        // Separando a data em partes
+        String[] partes = data.split("/");
+
+        // Extraindo dia, mês e ano
+        String dia = partes[0]; // primeiro elemento
+        String mes = partes[1]; // segundo elemento
+        String ano = partes[2]; // terceiro elemento
+
+        // Exibindo os resultados
+        System.out.println("Dia: " + dia);
+        System.out.println("Mês: " + mes);
+        System.out.println("Ano: " + ano);
+    }
+}

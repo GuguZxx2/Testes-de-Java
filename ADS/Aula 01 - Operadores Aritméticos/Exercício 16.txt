@@ -1,0 +1,17 @@
+public class CalculoNumero {
+
+    public static void main(String[] args) {
+
+        // Definindo um número
+        double numero = 16.0; // você pode alterar este valor
+
+        // Calculando o quadrado e a raiz quadrada
+        double quadrado = numero * numero;
+        double raizQuadrada = Math.sqrt(numero);
+
+        // Exibindo os resultados
+        System.out.printf("Número: %.2f%n", numero);
+        System.out.printf("Quadrado: %.2f%n", quadrado);
+        System.out.printf("Raiz quadrada: %.2f%n", raizQuadrada);
+    }
+}

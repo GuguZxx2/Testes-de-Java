@@ -1,0 +1,27 @@
+ Exercício 2 =
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class LeituraNumero {
+    public static void main(String[] args) {
+        try {
+            BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+            
+            System.out.println("Digite um número inteiro:");
+            String entrada = reader.readLine();
+            int numero = Integer.parseInt(entrada); // Converte a entrada para inteiro
+            
+            // Exibindo o resultado
+            System.out.println("O valor do número digitado é: " + numero);
+        }
+
+
+
+
+
+
+
+
+

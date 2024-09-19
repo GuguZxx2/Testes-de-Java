@@ -1,0 +1,17 @@
+public class SepararData {
+
+    public static void main(String[] args) {
+        // Definindo uma data no formato ddmmaa
+        int data = 150923; // por exemplo, 15 de setembro de 2023
+
+        // Extraindo dia, mês e ano
+        int dia = data / 10000; // obtém os dois primeiros dígitos
+        int mes = (data / 100) % 100; // obtém os dois dígitos do meio
+        int ano = data % 100; // obtém os dois últimos dígitos
+
+        // Exibindo os resultados
+        System.out.printf("Dia: %02d%n", dia);
+        System.out.printf("Mês: %02d%n", mes);
+        System.out.printf("Ano: %02d%n", ano);
+    }
+}

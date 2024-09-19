@@ -1,0 +1,40 @@
+Exercício 6
+
+import java.io.IOException;
+
+public class ConcatenaNumeros {
+    public static void main(String[] args) {
+        char milhar, centena, dezena, unidade;
+
+        System.out.println("Digite o dígito da milhar (0-9):");
+        milhar = lerDado();
+
+        System.out.println("Digite o dígito da centena (0-9):");
+        centena = lerDado();
+
+        System.out.println("Digite o dígito da dezena (0-9):");
+        dezena = lerDado();
+
+        System.out.println("Digite o dígito da unidade (0-9):");
+        unidade = lerDado();
+
+        // Concatenando os caracteres em uma String
+        String resultado = "" + milhar + centena + dezena + unidade;
+
+        // Imprimindo o resultado
+        System.out.println("O número formado é: " + resultado);
+    }
+
+    private static char lerDado() {
+        char dado = ' ';
+        try {
+            dado = (char) System.in.read();
+            // Consumir o caractere de nova linha
+            System.in.read();
+        } catch (IOException e) {
+            System.out.println("Ocorreu um erro ao ler o dado.");
+            e.printStackTrace();
+        }
+        return dado;
+    }
+}

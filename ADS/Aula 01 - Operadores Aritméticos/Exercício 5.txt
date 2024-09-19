@@ -1,0 +1,16 @@
+public class CalculoDivida {
+
+    public static void main(String[] args) {
+        // Definindo os valores iniciais
+        double valorInicial = 100.00; // Valor da dívida
+        double taxaJuros = 10.0; // Taxa de juros em porcentagem
+        int numeroMeses = 8; // Número de meses
+
+        // Calculando o valor final com juros compostos
+        double valorFinal = valorInicial * Math.pow((1 + taxaJuros / 100), numeroMeses);
+
+        // Exibindo o resultado
+        System.out.printf("Após %d meses, a dívida de R$ %.2f com juros de %.2f%% será: R$ %.2f%n",
+                          numeroMeses, valorInicial, taxaJuros, valorFinal);
+    }
+}

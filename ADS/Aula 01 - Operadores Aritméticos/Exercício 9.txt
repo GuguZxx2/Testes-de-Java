@@ -1,0 +1,19 @@
+public class LogaritmoGenerico {
+
+    public static void main(String[] args) {
+        // Definindo um número e uma base
+        double numero = 100; // você pode alterar este valor
+        double base = 10;    // você pode alterar este valor
+
+        // Verificando se o número e a base são válidos
+        if (numero > 0 && base > 0 && base != 1) {
+            // Calculando o logaritmo na base especificada
+            double logaritmo = Math.log(numero) / Math.log(base);
+
+            // Exibindo o resultado
+            System.out.printf("O logaritmo de %.2f na base %.2f é: %.4f%n", numero, base, logaritmo);
+        } else {
+            System.out.println("Número e base devem ser positivos e a base não pode ser 1.");
+        }
+    }
+}

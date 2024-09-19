@@ -1,0 +1,13 @@
+public class AreaRetangulo {
+    public static void main(String[] args) {
+        // Definindo a base e a altura do retângulo
+        double base = 5.0; // você pode alterar este valor
+        double altura = 3.0; // você pode alterar este valor
+
+        // Calculando a área
+        double area = base * altura;
+
+        // Exibindo o resultado
+        System.out.println("A área do retângulo é: " + area);
+    }
+}

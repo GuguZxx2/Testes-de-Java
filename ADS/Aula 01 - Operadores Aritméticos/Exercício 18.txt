@@ -1,0 +1,15 @@
+public class AreaLosango {
+
+    public static void main(String[] args) {
+
+        // Definindo as diagonais do losango
+        double diagonalMaior = 10.0; // você pode alterar este valor
+        double diagonalMenor = 6.0;   // você pode alterar este valor
+
+        // Calculando a área do losango
+        double area = (diagonalMaior * diagonalMenor) / 2;
+
+        // Exibindo o resultado
+        System.out.printf("A área do losango com diagonal maior %.2f e diagonal menor %.2f é: %.2f%n", diagonalMaior, diagonalMenor, area);
+    }
+}

@@ -1,0 +1,19 @@
+public class Divisao {
+
+    public static void main(String[] args) {
+
+        // Definindo os números inteiros
+        int dividendo = 20; // você pode alterar este valor
+        int divisor = 3;    // você pode alterar este valor
+
+        // Calculando o quociente e o resto
+        int quociente = dividendo / divisor;
+        int resto = dividendo % divisor;
+
+        // Exibindo os resultados
+        System.out.println("Dividendo: " + dividendo);
+        System.out.println("Divisor: " + divisor);
+        System.out.println("Quociente: " + quociente);
+        System.out.println("Resto: " + resto);
+    }
+}

@@ -1,0 +1,16 @@
+public class CalculoExpressao {
+
+    public static void main(String[] args) {
+
+        // Definindo os números reais
+        double a = 10.0; // você pode alterar este valor
+        double b = 5.0;  // você pode alterar este valor
+        double c = 2.0;  // você pode alterar este valor
+
+        // Calculando a expressão
+        double x = 2 * ((a - c) / 8) - (b * 5);
+
+        // Exibindo o resultado
+        System.out.printf("O resultado da expressão é: %.2f%n", x);
+    }
+}

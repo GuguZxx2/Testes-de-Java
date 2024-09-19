@@ -1,0 +1,15 @@
+public class AreaCirculo {
+
+    public static void main(String[] args) {
+
+        // Definindo o valor de PI e o raio
+        double PI = 3.14159; // valor de PI
+        double raio = 5.0;   // você pode alterar este valor
+
+        // Calculando a área do círculo
+        double area = PI * raio * raio;
+
+        // Exibindo o resultado
+        System.out.printf("A área do círculo com raio %.2f é: %.2f%n", raio, area);
+    }
+}

@@ -1,0 +1,16 @@
+import javax.swing.JOptionPane;
+
+public class SomaComprimentoStrings {
+    public static void main(String[] args) {
+        // Lendo três strings usando JOptionPane
+        String str1 = JOptionPane.showInputDialog("Digite a primeira string:");
+        String str2 = JOptionPane.showInputDialog("Digite a segunda string:");
+        String str3 = JOptionPane.showInputDialog("Digite a terceira string:");
+
+        // Calculando a soma dos comprimentos
+        int comprimentoTotal = str1.length() + str2.length() + str3.length();
+
+        // Exibindo o resultado
+        JOptionPane.showMessageDialog(null, "A soma dos comprimentos das strings é: " + comprimentoTotal);
+    }
+}

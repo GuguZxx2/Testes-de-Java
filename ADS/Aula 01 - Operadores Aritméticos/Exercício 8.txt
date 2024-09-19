@@ -1,0 +1,18 @@
+public class LogaritmoBase10 
+{
+    public static void main(String[] args) {
+        // Definindo um número
+        double numero = 100; // você pode alterar este valor para outro número
+
+        // Verificando se o número é positivo
+        if (numero > 0) {
+            // Calculando o logaritmo na base 10
+            double logaritmo = Math.log10(numero);
+
+            // Exibindo o resultado
+            System.out.printf("O logaritmo de %.2f na base 10 é: %.4f%n", numero, logaritmo);
+        } else {
+            System.out.println("O logaritmo só é definido para números positivos.");
+        }
+    }
+}

@@ -1,0 +1,13 @@
+public class AlgarismoDezena {
+
+    public static void main(String[] args) {
+        // Definindo um número inteiro de 3 dígitos
+        int numero = 456; // você pode alterar este valor
+
+        // Extraindo o algarismo da casa das dezenas
+        int algarismoDezena = (numero / 10) % 10;
+
+        // Exibindo o resultado
+        System.out.println("O algarismo da casa das dezenas é: " + algarismoDezena);
+    }
+}

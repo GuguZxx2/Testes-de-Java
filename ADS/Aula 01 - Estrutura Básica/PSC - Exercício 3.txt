@@ -1,0 +1,23 @@
+Exercício 3 =
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class FormatoData {
+    public static void main(String[] args) {
+        try {
+            BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+            
+            System.out.println("Digite o dia:");
+            int dia = Integer.parseInt(reader.readLine());
+            
+            System.out.println("Digite o mês:");
+            int mes = Integer.parseInt(reader.readLine());
+            
+            System.out.println("Digite o ano:");
+            int ano = Integer.parseInt(reader.readLine());
+            
+            // Exibindo a data no formato dia/mês/ano
+            System.out.println("Data: " + dia + "/" + mes + "/" + ano);
+        }

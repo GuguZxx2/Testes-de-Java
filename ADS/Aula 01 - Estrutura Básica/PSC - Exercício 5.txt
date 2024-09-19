@@ -1,0 +1,30 @@
+Exercício 5 =
+
+import java.io.IOException;
+
+
+public class FormarPalavra {
+    public static void main(String[] args) {
+        char[] caracteres = new char[10];
+        System.out.println("Digite 10 caracteres:");
+        try {
+            // Lendo 10 caracteres da entrada padrão
+            for (int i = 0; i < 10; i++) {
+                caracteres[i] = (char) System.in.read();
+                // Consumir o caractere de nova linha
+                System.in.read(); 
+            }
+        } catch (IOException e) {
+            System.out.println("Ocorreu um erro ao ler os caracteres.")
+           e.printStackTrace();
+        }
+        // Formando a palavra
+        StringBuilder palavra = new StringBuilder();
+        for (char c : caracteres) {
+            palavra.append(c);
+        }
+        // Imprimindo a palavra formada
+        System.out.println("A palavra formada é: " + palavra.toString());
+    }
+
+}
